@@ -6,7 +6,9 @@ There are three folders in this repository:
 
 ## Client
 
-You can run the client from the top-level directory with `node client/index`. This file is a script which will send an HTTP request to the server.
+You can run the client from the top-level directory with `node client/index`. This file is a script which will send an HTTP request to the server. 
+Run the script with the desired name as a command line parameter: `node client/index.js --name="Alex Block"` or use the default name `node client/index.js `
+
 
 Think of the client as the _prover_ here. It needs to prove to the server that some `name` is in the `MERKLE_ROOT` on the server. 
 
